@@ -1,0 +1,139 @@
+
+/*---------------------*/
+/*   GENERAL ELEMENTS  */
+/*---------------------*/
+
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #FFFFFF;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    background-image: url(../media/bg.gif);
+}
+
+h1 {
+    background-image: url(../media/hipster-powered-lottery.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 196px;
+    width: 395px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+/*---------------------*/
+/*   GENERAL CLASSES   */
+/*---------------------*/
+
+.hide {
+    display: none;
+}
+
+.errormessage {
+    color: #FF0000;
+}
+
+
+/*---------------------*/
+/* CONTAINING ELEMENTS */
+/*---------------------*/
+
+main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/*------------------------*/
+/* PAGE SPECIFIC ELEMENTS */
+/*------------------------*/
+
+/* --- Generation --- */
+#generate {
+    text-align: center;
+    width: 20%;
+    display: block;
+    background-color: #3c3c3c;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #3c3c3c;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 3px;
+    margin-bottom: 25px;
+}
+
+#generate:hover {
+    background-color: #c83c3c;
+    border-color: #c83c3c;
+}
+#generated {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#generated li, #generated span {
+    background-image: url(../media/number.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 101px;
+    width: 101px;
+    height: 101px;
+    text-align: center;
+    line-height: 101px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 1.6rem;
+}
+
+#generated .joker {
+    background-image: url(../media/joker.png);
+    width: 100px;
+    height: 115px;
+    line-height: 115px;
+    background-size: 100px 115px;
+    display: block;
+    margin-left: auto; margin-right: auto;
+    font-size: 2rem;
+}
+
+
+/* --- previous --- */
+#previous {
+    text-align: center;
+}
+#previous ul {
+    margin-bottom: 10px;
+}
+
+#previous li, #previous .joker {
+    display: inline;
+    font-size: 1.6rem;
+}
+#previous li:after {
+    content: " - "
+}
+
+#previous li:last-child:after {
+    content: ""
+}

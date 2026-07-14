@@ -1,0 +1,89 @@
+{
+  "rules": [
+    {
+      "id": "style-disabled",
+      "name": "style-disabled",
+      "description": "<style> tags cannot be used.",
+      "engineId": "htmlhint",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "inline-style-disabled",
+      "name": "inline-style-disabled",
+      "description": "Inline style cannot be used.",
+      "engineId": "htmlhint",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "id": "script-disabled",
+      "name": "script-disabled",
+      "description": "The <script> tag cannot be used.",
+      "engineId": "htmlhint",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "ruleId": "style-disabled",
+      "primaryLocation": {
+        "message": "The <style> tag cannot be used.",
+        "filePath": "C:\\Users\\admin\\WebstormProjects\\zeini-ddin-fatayrji-wdf\\src\\week1.1/index.html",
+        "textRange": {
+          "startLine": 5,
+          "startColumn": 5
+        }
+      }
+    },
+    {
+      "ruleId": "inline-style-disabled",
+      "primaryLocation": {
+        "message": "Inline style [  style=\"color: #ee5522;\" ] cannot be used.",
+        "filePath": "C:\\Users\\admin\\WebstormProjects\\zeini-ddin-fatayrji-wdf\\src\\week2.2/index.html",
+        "textRange": {
+          "startLine": 11,
+          "startColumn": 23
+        }
+      }
+    },
+    {
+      "ruleId": "script-disabled",
+      "primaryLocation": {
+        "message": "The <script> tag cannot be used.",
+        "filePath": "C:\\Users\\admin\\WebstormProjects\\zeini-ddin-fatayrji-wdf\\src\\week7.1/index.html",
+        "textRange": {
+          "startLine": 10,
+          "startColumn": 5
+        }
+      }
+    },
+    {
+      "ruleId": "script-disabled",
+      "primaryLocation": {
+        "message": "The <script> tag cannot be used.",
+        "filePath": "C:\\Users\\admin\\WebstormProjects\\zeini-ddin-fatayrji-wdf\\src\\week6.2/index.html",
+        "textRange": {
+          "startLine": 8,
+          "startColumn": 5
+        }
+      }
+    }
+  ]
+}

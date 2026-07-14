@@ -1,0 +1,108 @@
+:root {
+    --highlight-colour: #d3d68c;
+    --default-font:  roboto, Arial, sans-serif;
+    --title-font: Pacifico, Arial, sans-serif;
+    --default-spacing: 1rem;
+    --fieldset-color-2: #542f2c; /* Green */
+    --fieldset-color-3: #bd0008; /* Blue */
+}
+
+/* --- HTML ELEMENTS --- */
+
+body {
+    background-image: url("../images/bg-stars.gif");
+    font-family: var(--default-font), sans-serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+h1, legend {
+    font-family: var(--title-font), sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #d3d68c;
+    padding: var(--default-spacing);
+    border-radius: 1rem;
+}
+h1 {
+    color: #b20000;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+    line-height: 220%;
+    background: url("../images/Xmas-Tree.gif") no-repeat left;
+    background-size: contain;
+}
+/* --- FORM ELEMENTS --- */
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.fieldset{
+    background-color: var(--highlight-colour);
+    border-radius: 0.5rem;
+    padding: 3rem;
+    margin-bottom: var(--default-spacing);
+    font-family: var(--default-font), sans-serif;
+}
+.fieldset--color-2 {
+    background-color: var(--fieldset-color-2);
+    color: white;
+}
+.fieldset--color-2 legend {
+    color: #f39909;
+    background-color: var(--fieldset-color-2);
+}
+
+.fieldset--color-3, .fieldset--color-3 legend {
+    background-color: var(--fieldset-color-3);
+    color: white;
+}
+
+legend {
+    text-align: left;
+    color: black;
+}
+
+label, input, select, textarea {
+    display: block;
+    box-sizing: border-box;
+}
+
+input, textarea, select {
+    font-family: var(--default-font), sans-serif;
+    font-size: 1rem;
+    padding: var(--default-spacing);
+    width: 100%;
+    margin-bottom: calc(var(--default-spacing)*2);
+}
+
+input[type="radio"] , input[type="radio"] + label, input[type="checkbox"] , input[type="checkbox"] + label {
+    display: inline-block;
+    width: auto;
+    font-size: 1.5rem;
+}
+
+input[type="checkbox"],input[type="radio"] {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+label {
+    margin-bottom: var(--default-spacing);
+}
+
+button {
+    display: block;
+    width: max-content;
+    margin: 0 0  var(--default-spacing) auto;
+    font-family: var(--title-font), sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #84881a;
+    border: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make-a-wishlist-for-Santa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/screen.css">
+
+</head>
+<body>
+<h1>Make-a-wishlist for Santa!</h1>
+<form method="POST" action="#">
+    <fieldset class="fieldset">
+        <legend>Some information about you</legend>
+        <label for="name">Who are you?</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Where shall we mail your pending approval to?</label>
+        <input type="email" name="email" id="email" required placeholder="someone@somewhere.com">
+
+        <label for="telephone">Can E.T. phone home?</label>
+        <input type="tel" name="telephone" id="telephone">
+
+        <label for="country">Where are you from?</label>
+        <select id="country" name="country">
+            <option value="be" selected>Earth</option>
+            <option value="fr">Venus</option>
+            <option value="de">Mars</option>
+        </select>
+    </fieldset>
+    <fieldset class="fieldset fieldset--color-2">
+        <legend>Something to please Santa</legend>
+        <label>Which do you like better: the elves or the reindeer?</label>
+        <input type="radio" name="creature" id="Elves" value="Elves"> <label for="Elves">Elves</label>
+        <input type="radio" name="creature" id="Reindeer" value="Reindeer"> <label for="Reindeer">Reindeer</label>
+
+        <label>What do you usually decorate your x-mas tree with?</label>
+        <input type="checkbox" name="decoration" id="Balls" value="Balls"> <label for="Balls">Balls</label>
+        <input type="checkbox" name="decoration" id="Lights" value="Lights"> <label for="Lights">Lights</label>
+        <input type="checkbox" name="decoration" id="Snow" value="Snow"> <label for="Snow">Snow</label>
+        <input type="checkbox" name="decoration" id="Little-men" value="Little-men"> <label for="Little-men">Little men</label>
+        <input type="checkbox" name="decoration" id="Fireworks" value="Fireworks"> <label for="Fireworks">Fireworks!</label>
+
+        <label for="movie">What is your favourite x-mas movie?</label>
+        <input type="text" name="movie" id="movie" value="movie">
+
+        <label for="trees">How many x-mas trees do you own?</label>
+        <input type="text" name="trees" id="trees" value="trees">
+    </fieldset>
+    <fieldset class="fieldset fieldset--color-3">
+        <legend>at last... your request</legend>
+        <label for="request">So, what will it be?</label>
+        <textarea rows="20" cols="10" id="request" name="request"></textarea>
+    </fieldset>
+
+    <button>send to Santa!</button>
+</form>
+</body>
+</html>

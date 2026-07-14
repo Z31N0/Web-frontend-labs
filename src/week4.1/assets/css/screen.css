@@ -1,0 +1,189 @@
+/* Font Import */
+@font-face {
+    font-family: chomsky;
+    src: url("../fonts/chomsky-webfont.woff2") format("woff2"),
+    url("../fonts/chomsky-webfont.woff") format("woff");
+}
+
+/* Body Styling */
+body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.5rem;
+    background-color: #fff;
+    color: #444;
+    font-family: Georgia, Cambria, sans-serif;
+    font-size: 1rem;
+}
+
+/* Paragraph Styling */
+p {
+    letter-spacing: normal;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+/* Link Styling */
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+p a {
+    color: rgb(68 196 209);
+}
+
+/* Navigation Styling */
+nav {
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 0.1rem solid #d8d8d8;
+    padding-bottom: 0.5rem;
+}
+
+nav li {
+    display: inline;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+nav a:hover,
+nav .active {
+    background-color: rgb(68 196 209);
+    color: #fff;
+}
+
+/* Header and Heading Styling */
+h1 {
+    font-size: 2rem;
+    text-shadow: 0.075rem 0.075rem 0 #d8d8d8;
+    padding-bottom: 1rem;
+}
+
+header {
+    padding-bottom: 1rem;
+}
+
+header h2 {
+    font-family: chomsky, Georgia, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+header h2 span {
+    color: rgb(68 196 209);
+}
+
+/* Aside Styling */
+aside {
+    padding: 1rem;
+    background-color: #d8d8d8;
+    margin-bottom: 2rem;
+}
+
+aside h2 {
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+aside h3 {
+    background-image: url("/src/week4.1/assets/media/nyt.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    padding-left: 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+aside li {
+    background-image: url("/src/week4.1/assets/media/nyt-inverted.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    padding-left: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Miscellaneous Styles */
+a~h3,
+.keyword {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Cambria, sans-serif;
+    color: #666;
+}
+
+h2 a {
+    font-size: 1.75rem;
+}
+
+hr {
+    color: #d8d8d8;
+}
+
+.category {
+    font-size: 1.25rem;
+    color: rgb(68 196 209);
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+article {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #d8d8d8;
+}
+
+.alinea {
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    border-top: 1px solid #d8d8d8;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+footer figure {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    padding: 0.5rem;
+    color: #333333;
+}
+
+figcaption {
+    font-family: sans-serif;
+    font-weight: 550;
+    margin: 1rem auto;
+}

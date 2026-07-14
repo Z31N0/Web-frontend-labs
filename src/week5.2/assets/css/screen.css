@@ -1,0 +1,176 @@
+/* Watch Icon used by Joe Mortell https://thenounproject.com/search/?q=wearable&i=79572
+    Graph Icon by Richard Schumann https://thenounproject.com/search/?q=statistics&i=50837
+*/
+
+/* --- -- EXTERNAL FONTS  -- --- */
+
+@font-face {
+    font-family: ARSMaquette;
+    src: url("../fonts/ars-maquette-regular.woff") format("woff"), /* Pretty Modern Browsers */
+    url("../fonts/ars-maquette-regular.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: ARSMaquetteMedium;
+    src: url("../fonts/ars-maquette-medium.woff") format("woff"), /* Pretty Modern Browsers */
+    url("../fonts/ars-maquette-medium.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+/* --- -- VARIABLES  -- --- */
+
+/* --- -- HTML ELEMENTS  -- --- */
+body {
+    font-family: "ARSMaquette", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    background-color: #FFF;
+    color: #444;
+    padding-top: 1.5rem;
+}
+
+h1,h2 {
+    font-weight: bold;
+    font-size: 3.1rem;
+    font-family: "ARSMaquetteMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    text-transform: lowercase;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+p {
+    line-height: 160%;
+    margin-bottom: 1.5rem;
+}
+
+p::selection{
+    background-color: #ff4020;
+    color: #FFF;
+}
+
+a {
+    color: #ff4020;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* --- -- CONTAINING ELEMENTS -- --- */
+
+#container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+nav li {
+    display: inline;
+    text-transform: lowercase;
+}
+
+nav li a {
+    color: #FFF;
+    background-color: #ff4020;
+    display: inline-block;
+    padding: 0.25rem;
+    border: 0.0625rem solid #ff4020;
+}
+
+nav li a:hover, nav li a.active, nav li a:focus, nav li a:active {
+    text-decoration: none;
+    background-color: #FFF;
+    color: #ff4020;
+}
+
+main {
+    background-color: #f6f6f6;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main img {
+    min-width: 5rem; /* min width: a flex item cannot shrink below its minimal content, zeker bij images is dat anders mega fussy. Altijd breedte opgeven, liefst minwidth omdat je anders plots je img kan kwijt zijn */
+    margin-right: 0.5rem;
+}
+
+
+/* --- -- PAGE SPECIFIC ELEMENTS -- --- */
+
+
+/* --- examples --- */
+main.examples {
+    display: flex;
+    flex-direction: column;
+}
+article div {
+    display: flex;
+}
+/* --- store --- */
+
+main.store {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+main.store article figure img {
+    max-width: 50%;
+    width: auto;
+}
+
+main.store article dl {
+    align-self: flex-start;
+}
+
+main.store article figcaption h2 {
+    color: #ff4020;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+main.store article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+}
+
+main.store article dl {
+    align-self: flex-start;
+    margin-top: 0.5rem;
+    text-transform: lowercase;
+    display: block;
+    background-color: rgba(255, 64, 32, 0.6);
+    padding: 0.5rem;
+    width: 100%;
+}
+
+main.store article figure {
+    margin-bottom: auto;
+    text-align: center;
+}
+
+main.store article dl dt {
+    color: #FFF;
+    margin-bottom: 0.25rem;
+}
+
+main.store article dl dd {
+    margin-bottom: 0.5rem;
+}

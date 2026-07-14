@@ -1,0 +1,122 @@
+/* General elements */
+body {
+    font-family: Barlow, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #153040;
+    padding-top:  2.5rem;
+}
+
+
+li:hover{
+    cursor: pointer;
+}
+
+
+p, aside li {
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(23 48 63 / 15%);
+    font-size: 0.9rem;
+    line-height: 135%;
+    margin-bottom: 0.625rem;
+}
+
+h1 {
+    font-family: Sacramento, cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: #FF5F00;
+    text-shadow: 0.125rem 0.125rem 0.125rem rgba(253 162 112 / 40%);
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #36ac94;
+    padding: 0.25rem;
+    display: inline-block;
+    color: white;
+    margin-bottom: 0.25rem;
+}
+
+
+/* layout bricks */
+
+
+main {
+    display: flex;
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    flex: 1;
+    padding: 1.25rem;
+}
+
+aside {
+    display: flex;
+    flex: 2;
+    padding: 1.25rem;
+}
+
+/* People list */
+
+.people li {
+    background-image: url("../media/ticket.svg");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    background-position: left center;
+    padding-left: 1.56rem;
+    line-height: 1.875rem;
+}
+
+.people li:hover, .people li.selected {
+    background-color: #FFC50F;
+}
+
+.people li::first-letter {
+    color: #FF5F00;
+    font-weight: bold;
+}
+
+
+/* Seats */
+
+
+aside div {
+    margin-right: 1.56rem;
+}
+
+aside li {
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    background-position: left center;
+    padding-left: 1.56rem;
+    line-height: 1.25rem;
+}
+
+aside .vip li {
+    background-image: url("../media/vip.svg");
+}
+
+aside .vip li:hover {
+    background-image: url("../media/vip-hover.svg");
+}
+
+aside .regular li {
+    background-image: url("../media/regular.svg");
+}
+
+aside .regular li:hover {
+    background-image: url("../media/regular-hover.svg");
+}
+
+aside .budget li {
+    background-image: url("../media/budget.svg");
+}
+
+aside .budget li:hover {
+    background-image: url("../media/budget-hover.svg");
+}
+
