@@ -14,7 +14,7 @@ Alongside the exercises, the repo includes tooling configuration that goes beyon
 
 ## Why it's set up this way
 
-Rather than just dumping exercise files, this repo also reflects practicing real front-end workflow habits — linting, HTML validation, and static analysis — on top of the actual weekly coding tasks.
+Rather than just dumping exercise files, this repo also reflects practicing real front-end workflow habits - linting, HTML validation, and static analysis - on top of the actual weekly coding tasks.
 
 ## Tech stack
 
