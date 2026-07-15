@@ -8,9 +8,9 @@ The `src` folder is organized week by week (`week1.1` through `week9.2`, plus an
 
 Alongside the exercises, the repo includes tooling configuration that goes beyond just writing code:
 
-- **Linting** — custom `linter-configs` and an ESLint setup to enforce code style
-- **Validation** — a `.vnuignore` file for the Nu HTML Checker, with generated `reports`
-- **Code quality** — a `sonar-project.properties` file for SonarQube static analysis
+- **Linting** - custom `linter-configs` and an ESLint setup to enforce code style
+- **Validation** - a `.vnuignore` file for the Nu HTML Checker, with generated `reports`
+- **Code quality** - a `sonar-project.properties` file for SonarQube static analysis
 
 ## Why it's set up this way
 
@@ -21,7 +21,6 @@ Rather than just dumping exercise files, this repo also reflects practicing real
 - HTML / CSS / JavaScript
 - ESLint
 - SonarQube
-- Nu HTML Checker (vnu)
 
 ## Structure
 
